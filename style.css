@@ -37,7 +37,7 @@
     width: 100px;
 }
 .logo{
-    background-image: url("images/logo.png");
+    background-image: url("https://cdn.jsdelivr.net/gh/yogita-khanna/nykaa-clone/images/logo.png");
     background-size: cover;
     height: 30px;
     width: 100%;
@@ -95,6 +95,7 @@
     align-items: center;
     color: rgb(107, 104, 104);
     border-bottom: 2px solid rgb(162, 158, 158);
+    background-color: white;
 }
 .offers{
     margin-top: 2.5px;
@@ -107,6 +108,7 @@
     align-items: center;
 }
 .hero-banner{
+    margin-top: 120px;
     display: flex;
     justify-content: space-evenly;
 }
@@ -291,4 +293,10 @@ ul a{
     height: 70px;
     width: 100%;
     background-color: rgb(245, 239, 239);
+}
+.head{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
 }
